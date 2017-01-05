@@ -26,3 +26,5 @@ grails.plugin.springsecurity.filterChain.chainMap = [
 	[pattern: '/**',             filters: 'JOINED_FILTERS']
 ]
 
+// Set this to false temporarily
+grails.plugin.springsecurity.logout.postOnly = false
