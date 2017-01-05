@@ -1,5 +1,9 @@
 package bookstore
 
+import com.testapp.Role
+import com.testapp.User
+import com.testapp.UserRole
+
 class BootStrap {
 
     def init = { servletContext ->
